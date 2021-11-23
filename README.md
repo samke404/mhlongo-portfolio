@@ -11,17 +11,17 @@ consisting of an about me page, resume page and projects page with links to my s
 ## Clone the repository
 
 * navigate to the master page of the repository. 
-* Above the list of files, click  Code.
+* Above the list of files, click  Code.
 
-* To clone the repository using HTTPS, under "Clone with HTTPS", click . 
-* To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click . 
-* To clone a repository using GitHub CLI, click Use GitHub CLI, then click .
+* To clone the repository using HTTPS, under "Clone with HTTPS", click . 
+* To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click . 
+* To clone a repository using GitHub CLI, click Use GitHub CLI, then click .
 
 
-## Open Terminal 
+## Open Terminal 
 * Change the current working directory to the location where you want the cloned directory. 
-* Type git clone, and then paste the URL you copied earlier.
-* Press Enter to create your local clone
+* Type git clone, and then paste the URL you copied earlier.
+* Press Enter to create your local clone
 
 ## Run on Terminal
 
@@ -53,5 +53,16 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm install bootstrap@3`
+
+To install bootstrap for styling the web application
+
+### `npm install react-router-dom@5.2.0`
+
+To enable the navigation among views of various components and change the browser URL, and keeps the UI in sync with the URL.
+
+### `npm run-script build`
+
+To build for deployment
 
  
