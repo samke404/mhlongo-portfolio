@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+
+
+body {
+  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;*/
+  background-image: linear-gradient(to right bottom, #43C6AC, #191654);
+  background-attachment: fixed;
+
+
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #354548;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(11, 97, 100);
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.row {
+  height: auto;
+}
+
+.sidebar {
+  background-color: #fff;
+  height: auto;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+
+}
+
+.mainContent {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px black;
+
+}
+
+.sidebarImage {
+  height: 180px;
+  width: 180px;
+  object-fit: contain;
+  border-radius: 30px;
+}
+
+.sidebarIcon {
+  width: 25px;
+  height: 25px;
+
+}
+
+.sidebarName {
+  font-family: 'Snell Roundhand';
+  margin: 20px 0;
+  font-size: 1.7rem;
+  color: rgb(100, 145, 148);
+}
+
+
+.sidebarItems {
+  margin-bottom: 6px;
+  padding-top: 6px;
+  height: 40px;
+  font-size: 1.05rem;
+  border-radius: 30px;
+
+
+}
+
+.sidebarTitle {
+  background-color: rgb(100, 145, 148);
+  border-radius: 30px;
+  color: white;
+}
+
+.contact {
+  background-color: rgb(100, 145, 148);
+  color: white;
+  padding: 2px 0;
+  margin: 20px -15px;
+  border-radius: 10px;
+
+
+}
+
+.sidebarEmail {
+  background-image: linear-gradient(to right bottom, #43C6AC, #191654);
+  border-radius: 30px;
+  color: white;
+  margin: 15px 20px 10px;
+  cursor: pointer;
+  transition: all 2s linear;
+}
+
+.sidebarEmail:hover {
+  transform: scale(1.2);
+}
+
+.sidebarSocialIcon {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+
+}
+
+.navbarItems {
+  display: flex;
+}
+
+.navbarItem {
+
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: #354358;
+
+}
+
+.navbarActive {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #191654;
+  border-bottom: 4px solid rgb(100, 145, 148);
+}
+
+.navbarItem:hover {
+  background: -webkit-linear-gradient(#00F260, #0575E6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+.about {
+  padding: 30px;
+  margin: -35px;
+}
+
+.aboutIntro {
+  font-size: 1.1rem;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.aboutContainer {
+  background-color: #dbdddf;
+  padding: 30px 20px;
+}
+
+.aboutHeading {
+  font-size: 25px;
+  font-weight: 700;
+  color: #354358;
+  margin-left: 10px;
+}
+
+.skillCard {
+  background-color: #fff;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  border-top: 2px solid;
+}
+
+.skillcardIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.skillcardBody {
+  margin-left: 15px;
+
+}
+
+.skillcardContent {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6e7e91;
+}
+
+.resume {
+  padding-top: 20px;
+}
+
+.resume-card__heading,
+.resume-languageHeading {
+  margin-left: 10px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #354538;
+}
+
+.resumeBodyCard {
+  margin-top: 10px;
+}
+
+.resumeCardTitle {
+  font-weight: 700;
+}
+
+.resumeCardHeading {
+  font-size: 16px;
+}
+
+.resume-card__details {
+  font-size: 0.9rem;
+  padding-top: 5px;
+}
+
+.bar {
+  width: 90%;
+  background-color: #f1f2f3;
+  border-radius: 20px;
+  margin-bottom: 15px;
+
+
+}
+
+.bar__icon {
+  width: 15px;
+  height: 15px;
+}
+
+.barWrapper {
+  background-image: linear-gradient(90deg, #00F260, #0575E6);
+  border-radius: 20px;
+  padding: 4px 14px;
+  color: #fff;
+  font-size: 0.9rem
+}
+
+.projects {
+  height: 72vh;
+  padding-top: 30px;
+  overflow-y: auto;
+}
+
+.projectCard__wrapper {
+  margin: 10px 0;
+  width: 100%;
+  height: 100%;
+  min-height: 160px;
+}
+
+.projectCard__image {
+  width: 100%;
+  height: 80%;
+  border-radius: 30px;
+  border: 1px solid #00F260;
+  transition: transform 0.3s linear;
+}
+
+.projectCard__image:hover {
+  transform: scale(1.05);
+}
+
+.projectCard__icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.projectCard__title {
+  margin-top: 12px;
+  font: size 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects__navbar {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.projects__navbar>div {
+  margin: 0 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
